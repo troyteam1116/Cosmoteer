@@ -4,10 +4,10 @@ userStuff(){
 
     for user in "${users[@]}"
     do
-        useradd -m -s "${user}
+        useradd -m -s "${user}"
     done
 
-    usermods('ursa' 'kya' 'toph' 'zuko' 'aang' 'katara')
+    usermods=('ursa' 'kya' 'toph' 'zuko' 'aang' 'katara')
 
     for user in "${usermods}"
     do
